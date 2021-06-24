@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AnmolTohfa">
-        <activity android:name=".MainActivity24"></activity>
         <activity android:name=".MainActivity23" />
         <activity android:name=".MainActivity22" />
         <activity android:name=".MainActivity21" />
@@ -18,8 +17,6 @@
         <activity android:name=".MainActivity13" />
         <activity android:name=".MainActivity12" />
         <activity android:name=".MainActivity11" />
-        <activity android:name=".MainActivity10" />
-        <activity android:name=".MainActivity9" />
         <activity android:name=".MainActivity8" />
         <activity android:name=".MainActivity7" />
         <activity android:name=".MainActivity6" />
