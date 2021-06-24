@@ -10,14 +10,13 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="166dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="296dp"
-        android:textSize="50px"
-        android:text="اقبال زریں"
+        android:layout_width="171dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="300dp"
         android:onClick="firstmove"
+        android:text="اقبال زریں"
+        android:textSize="50px"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,18 +24,21 @@
         android:id="@+id/button3"
         android:layout_width="164dp"
         android:layout_height="66dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="48dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="162dp"
-        android:layout_height="69dp"
+        android:layout_width="159dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="68dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="537dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
